@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TH.AdventOfCode._2018.Day2
+namespace TH.AdventOfCode._2018.Day2.Part1
 {
     public class CheckSum
     {
