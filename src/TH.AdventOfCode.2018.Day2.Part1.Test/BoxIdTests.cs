@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace TH.AdventOfCode._2018.Day2.Test
+namespace TH.AdventOfCode._2018.Day2.Part1.Test
 {
     public class BoxIdTests
     {

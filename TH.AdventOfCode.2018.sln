@@ -12,9 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1", "Day1", "{270C3315-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day2", "Day2", "{C02BF692-F3A4-4240-9D3F-F7F3AD3FBE7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day2", "src\TH.AdventOfCode.2018.Day2\TH.AdventOfCode.2018.Day2.csproj", "{E5C77033-52F9-4DF7-97F8-9E8CAD42E96D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day2.Part1", "src\TH.AdventOfCode.2018.Day2.Part1\TH.AdventOfCode.2018.Day2.Part1.csproj", "{E5C77033-52F9-4DF7-97F8-9E8CAD42E96D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day2.Test", "src\TH.AdventOfCode.2018.Day2.Test\TH.AdventOfCode.2018.Day2.Test.csproj", "{E1393AD4-F775-495C-886C-F48EF40C204B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day2.Part1.Test", "src\TH.AdventOfCode.2018.Day2.Part1.Test\TH.AdventOfCode.2018.Day2.Part1.Test.csproj", "{E1393AD4-F775-495C-886C-F48EF40C204B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
