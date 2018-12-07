@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace TH.AdventOfCode._2018.Day1
+namespace TH.AdventOfCode._2018.Day1.Part2
 {
     class Program
     {
@@ -21,12 +22,26 @@ namespace TH.AdventOfCode._2018.Day1
             var values = CommaSeperatedValues.FromString(_args.GetSequence());
             var sequence = FrequencyChangeSequence.FromCommaSeperatedValues(values);
             var frequency = Frequency.StartFromZero();
-            frequency.Add(sequence);
-            
-            Console.WriteLine($"The resulting frequency is {frequency.FrequencyNumber}");
-        }
-    }
+            var frequencyFound = false;
+            var allFrequencyValues = new List<int>();
+            while (!frequencyFound)
+            {
+                foreach (var change in sequence.Changes)
+                {
+                    frequency.Add(change);
+                    if (allFrequencyValues.Contains(frequency.FrequencyNumber))
+                    {
+                        Console.WriteLine($"Found it! {frequency.FrequencyNumber}");
+                        frequencyFound = true;
+                        break;
+                    }
 
+                    allFrequencyValues.Add(frequency.FrequencyNumber);
+                }
+            }
+        }
+    }    
+    
     class Arguments
     {
         private readonly string[] _args;
@@ -41,5 +56,4 @@ namespace TH.AdventOfCode._2018.Day1
             return string.Join(" ", _args);
         }
     }
-    
 }
