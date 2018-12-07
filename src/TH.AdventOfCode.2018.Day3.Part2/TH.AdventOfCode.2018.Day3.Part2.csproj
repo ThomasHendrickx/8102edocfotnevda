@@ -6,4 +6,8 @@
         <RootNamespace>TH.AdventOfCode._2018.Day3.Part2</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TH.AdventOfCode.2018.Day3.Part1\TH.AdventOfCode.2018.Day3.Part1.csproj" />
+    </ItemGroup>
+
 </Project>

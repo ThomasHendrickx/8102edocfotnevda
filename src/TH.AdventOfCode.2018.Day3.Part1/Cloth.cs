@@ -31,5 +31,20 @@ namespace TH.AdventOfCode._2018.Day3.Part1
         {
             return _gridClaims.Values.SelectMany(column => column.Values).Count(claims => claims.Count > 1);
         }
+
+        public IEnumerable<string> ClaimsWithoutOverlap()
+        {
+            var allClaimids = _gridClaims
+                .Values
+                .SelectMany(column => column.Values)
+                .SelectMany(claims => claims)
+                .Distinct();
+            var doubledClaims = _gridClaims
+                .Values
+                .SelectMany(column => column.Values)
+                .Where(claims => claims.Count > 1)
+                .SelectMany(claims => claims);
+            return allClaimids.Except(doubledClaims);
+        }
     }
 }
