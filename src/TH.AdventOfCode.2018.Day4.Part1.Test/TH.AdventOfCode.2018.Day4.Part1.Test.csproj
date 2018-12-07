@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
-        <RootNamespace>TH.AdventOfCode._2018.Day2.Part2.Test</RootNamespace>
+        <RootNamespace>TH.AdventOfCode._2018.Day4.Part1.Test</RootNamespace>
 
         <IsPackable>false</IsPackable>
     </PropertyGroup>
@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TH.AdventOfCode.2018.Day2.Part2\TH.AdventOfCode.2018.Day2.Part2.csproj" />
+      <ProjectReference Include="..\TH.AdventOfCode.2018.Day4.Part1\TH.AdventOfCode.2018.Day4.Part1.csproj" />
     </ItemGroup>
 
 </Project>
