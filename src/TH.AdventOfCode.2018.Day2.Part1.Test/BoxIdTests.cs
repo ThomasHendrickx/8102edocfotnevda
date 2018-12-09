@@ -14,7 +14,8 @@ namespace TH.AdventOfCode._2018.Day2.Part1.Test
             var boxId = new BoxId(id);
 
             // Assert
-            Assert.Equal(0, boxId.Multiple.Count);
+            
+            Assert.Empty(boxId.Multiple);
         }
 
         [Fact]
@@ -42,7 +43,7 @@ namespace TH.AdventOfCode._2018.Day2.Part1.Test
             var boxId = new BoxId(id);
 
             // Assert
-            Assert.Equal(1, boxId.Multiple.Count);
+            Assert.Single(boxId.Multiple);
             Assert.Contains(2, boxId.Multiple);
         }
 
@@ -56,7 +57,7 @@ namespace TH.AdventOfCode._2018.Day2.Part1.Test
             var boxId = new BoxId(id);
 
             // Assert
-            Assert.Equal(1, boxId.Multiple.Count);
+            Assert.Single(boxId.Multiple);
             Assert.Contains(3, boxId.Multiple);
         }
 
@@ -70,7 +71,7 @@ namespace TH.AdventOfCode._2018.Day2.Part1.Test
             var boxId = new BoxId(id);
 
             // Assert
-            Assert.Equal(1, boxId.Multiple.Count);
+            Assert.Single(boxId.Multiple);
             Assert.Contains(2, boxId.Multiple);
         }
 
@@ -84,7 +85,7 @@ namespace TH.AdventOfCode._2018.Day2.Part1.Test
             var boxId = new BoxId(id);
 
             // Assert
-            Assert.Equal(1, boxId.Multiple.Count);
+            Assert.Single(boxId.Multiple);
             Assert.Contains(2, boxId.Multiple);
         }
 
@@ -98,7 +99,7 @@ namespace TH.AdventOfCode._2018.Day2.Part1.Test
             var boxId = new BoxId(id);
 
             // Assert
-            Assert.Equal(1, boxId.Multiple.Count);
+            Assert.Single(boxId.Multiple);
             Assert.Contains(3, boxId.Multiple);
         }
     }

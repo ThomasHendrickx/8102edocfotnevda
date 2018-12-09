@@ -1,0 +1,40 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part1.Test/TH.AdventOfCode.2018.Day4.Part1.Test.csproj",
+    "projectName": "TH.AdventOfCode.2018.Day4.Part1.Test",
+    "projectPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part1.Test/TH.AdventOfCode.2018.Day4.Part1.Test.csproj",
+    "outputPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part1.Test/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part1/TH.AdventOfCode.2018.Day4.Part1.csproj": {
+            "projectPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part1/TH.AdventOfCode.2018.Day4.Part1.csproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      }
+    }
+  }
+}

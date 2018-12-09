@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": []
+  },
+  "packageFolders": {
+    "/Users/thomas.hendrickx/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day3.Part1/TH.AdventOfCode.2018.Day3.Part1.csproj",
+      "projectName": "TH.AdventOfCode.2018.Day3.Part1",
+      "projectPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day3.Part1/TH.AdventOfCode.2018.Day3.Part1.csproj",
+      "packagesPath": "/Users/thomas.hendrickx/.nuget/packages/",
+      "outputPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day3.Part1/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/thomas.hendrickx/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://scm.amplexor.com/nexus/service/local/nuget/tridion-nuget/": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {}
+    }
+  }
+}

@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day4.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day4.Part2", "src\TH.AdventOfCode.2018.Day4.Part2\TH.AdventOfCode.2018.Day4.Part2.csproj", "{637383A2-0C52-4258-A5D6-B3A3C139E438}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day5", "Day5", "{4EF1E151-C538-4B1F-8AB1-B0B316D11F2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

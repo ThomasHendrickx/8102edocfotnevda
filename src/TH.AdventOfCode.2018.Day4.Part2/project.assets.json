@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "TH.AdventOfCode.2018.Day4.Part1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TH.AdventOfCode.2018.Day4.Part1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TH.AdventOfCode.2018.Day4.Part1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TH.AdventOfCode.2018.Day4.Part1/1.0.0": {
+      "type": "project",
+      "path": "../TH.AdventOfCode.2018.Day4.Part1/TH.AdventOfCode.2018.Day4.Part1.csproj",
+      "msbuildProject": "../TH.AdventOfCode.2018.Day4.Part1/TH.AdventOfCode.2018.Day4.Part1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "TH.AdventOfCode.2018.Day4.Part1 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/thomas.hendrickx/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part2/TH.AdventOfCode.2018.Day4.Part2.csproj",
+      "projectName": "TH.AdventOfCode.2018.Day4.Part2",
+      "projectPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part2/TH.AdventOfCode.2018.Day4.Part2.csproj",
+      "packagesPath": "/Users/thomas.hendrickx/.nuget/packages/",
+      "outputPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part2/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/thomas.hendrickx/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://scm.amplexor.com/nexus/service/local/nuget/tridion-nuget/": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {
+            "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part1/TH.AdventOfCode.2018.Day4.Part1.csproj": {
+              "projectPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day4.Part1/TH.AdventOfCode.2018.Day4.Part1.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {}
+    }
+  }
+}

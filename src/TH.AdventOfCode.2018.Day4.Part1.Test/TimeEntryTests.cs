@@ -32,7 +32,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 01, 00, 05, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.StartAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -47,7 +47,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 01, 00, 25, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.EndAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -62,7 +62,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 01, 00, 30, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.StartAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -77,7 +77,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 01, 00, 55, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.EndAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -107,7 +107,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 02, 00, 40, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.StartAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -122,7 +122,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 02, 00, 50, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.EndAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -152,7 +152,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 03, 00, 24, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.StartAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -167,7 +167,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 03, 00, 29, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.EndAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -182,7 +182,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 04, 00, 02, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.BeginShift, timeEntry.TimeEntryType);
-            Assert.Equal(99, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -197,7 +197,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 04, 00, 36, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.StartAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -212,7 +212,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 04, 00, 46, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.EndAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -242,7 +242,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 05, 00, 45, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.StartAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
 
         [Fact]
@@ -257,7 +257,7 @@ namespace TH.AdventOfCode._2018.Day4.Part1.Test
             // Assert
             Assert.Equal(new DateTime(1518, 11, 05, 00, 55, 0), timeEntry.TimeStamp.AsDateTime());
             Assert.Equal(TimeEntryTypes.EndAsleep, timeEntry.TimeEntryType);
-            Assert.Equal(null, timeEntry.Guard);
+            Assert.Null(timeEntry.Guard);
         }
     }
 }

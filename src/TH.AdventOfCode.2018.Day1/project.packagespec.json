@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day1/TH.AdventOfCode.2018.Day1.csproj",
+    "projectName": "TH.AdventOfCode.2018.Day1",
+    "projectPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day1/TH.AdventOfCode.2018.Day1.csproj",
+    "outputPath": "/Users/thomas.hendrickx/Eigen/8102edocfotnevda/src/TH.AdventOfCode.2018.Day1/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {}
+  }
+}
