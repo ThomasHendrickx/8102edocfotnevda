@@ -40,15 +40,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day5", "Day5", "{4EF1E151-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day5.Part1", "src\TH.AdventOfCode.2018.Day5.Part1\TH.AdventOfCode.2018.Day5.Part1.csproj", "{C352FABA-CCB6-41C4-B3A6-95B78B9F6579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day5.Part1.Test", "TH.AdventOfCode.2018.Day5.Part1.Test\TH.AdventOfCode.2018.Day5.Part1.Test.csproj", "{29BCC77E-F03D-47C1-98E2-B91B1BB55C1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day5.Part1.Test", "src\TH.AdventOfCode.2018.Day5.Part1.Test\TH.AdventOfCode.2018.Day5.Part1.Test.csproj", "{29BCC77E-F03D-47C1-98E2-B91B1BB55C1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day5.Part2", "src\TH.AdventOfCode.2018.Day5.Part2\TH.AdventOfCode.2018.Day5.Part2.csproj", "{5FFBAF5C-6531-460A-AE3F-D906FD3CB275}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day6", "Day6", "{183EC64B-3268-4B5A-9FBD-4614821FE60B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day6.Part1", "TH.AdventOfCode.2018.Day6.Part1\TH.AdventOfCode.2018.Day6.Part1.csproj", "{C78AF0B1-0A16-4C0F-89BF-C9D0760CB6C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day6.Part1", "src\TH.AdventOfCode.2018.Day6.Part1\TH.AdventOfCode.2018.Day6.Part1.csproj", "{C78AF0B1-0A16-4C0F-89BF-C9D0760CB6C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day6.Part1.Test", "TH.AdventOfCode.2018.Day6.Part1.Test\TH.AdventOfCode.2018.Day6.Part1.Test.csproj", "{4726BBF1-3E55-455F-A006-6A1FBB5352A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day6.Part1.Test", "src\TH.AdventOfCode.2018.Day6.Part1.Test\TH.AdventOfCode.2018.Day6.Part1.Test.csproj", "{4726BBF1-3E55-455F-A006-6A1FBB5352A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH.AdventOfCode.2018.Day6.Part2", "src\TH.AdventOfCode.2018.Day6.Part2\TH.AdventOfCode.2018.Day6.Part2.csproj", "{CFC85A99-F651-4316-ABD5-7195639366F0}"
 EndProject
