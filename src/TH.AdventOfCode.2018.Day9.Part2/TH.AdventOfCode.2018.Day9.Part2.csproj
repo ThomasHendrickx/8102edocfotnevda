@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>TH.AdventOfCode._2018.Day9.Part2</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TH.AdventOfCode.2018.Day9\TH.AdventOfCode.2018.Day9.csproj" />
+    </ItemGroup>
+
+</Project>
