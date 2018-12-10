@@ -13,9 +13,6 @@ namespace TH.AdventOfCode._2018.Day6.Part1
             var map = new Map(destinations.ToList());
             var d = map.DestinationWithMostPoints;            
             Console.WriteLine($"Answer ({d.VisibleId}) = {map.SizeOf(d)}");
-            //var lines = new List<string>();            
-            //map.PrintOutTo(line => lines.Add(line));
-            //File.WriteAllLines("map.txt", lines);
         }
     }
 }

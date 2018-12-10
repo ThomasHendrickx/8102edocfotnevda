@@ -63,12 +63,14 @@ namespace TH.AdventOfCode._2018.Day6.Part1
                         Distance = d.Coordinate.ManhattenDistance(coordinate),
                         Destination = d
                     }).OrderBy(d => d.Distance).ToList();
+                    var totalDistance = orderedDestinations.Select(d => d.Distance).Sum();
                     if (orderedDestinations[0].Distance == orderedDestinations[1].Distance)
                     {
                         Points.Add(new Point
                         {
                             Coordinate = coordinate,
-                            Owner = null
+                            Owner = null,
+                            TotalDistance = totalDistance
                         });                  
                     }
                     else
@@ -76,7 +78,8 @@ namespace TH.AdventOfCode._2018.Day6.Part1
                         Points.Add(new Point
                         {
                             Coordinate = coordinate,
-                            Owner = orderedDestinations.First().Destination
+                            Owner = orderedDestinations.First().Destination,
+                            TotalDistance = totalDistance
                         });
                     }
                 }
@@ -118,6 +121,11 @@ namespace TH.AdventOfCode._2018.Day6.Part1
             }
         }
 
+        public List<Point> PointsWithTotalDistanceLowerThan(int distance)
+        {
+            return Points.Where(p => p.TotalDistance < distance).ToList();
+        }
+        
         public int SizeOf(Destination destination)
         {
             var count = 0;
