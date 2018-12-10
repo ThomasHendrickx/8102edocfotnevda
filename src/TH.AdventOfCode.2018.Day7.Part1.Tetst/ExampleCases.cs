@@ -14,7 +14,7 @@ namespace TH.AdventOfCode._2018.Day7.Part1.Tetst
                     .Split(';')
                     .Select(i => new Instruction(i))
                     .ToList();
-            var jobOverview = new JobOverview(instructions);
+            var jobOverview = new JobOverview(new InstructionReader(instructions).AllJobs);
 
             // Act
             jobOverview.Execute(out var sequence);
